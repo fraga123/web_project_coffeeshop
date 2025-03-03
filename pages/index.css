@@ -6,7 +6,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-.header-principal {
+.header {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -50,7 +50,7 @@
   line-height: 20px;
 }
 
-.header {
+.header__content {
   display: flex;
   justify-content: space-between;
 }
@@ -96,6 +96,9 @@ p {
 .header__image {
   max-width: 646px;
   max-height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
@@ -112,11 +115,15 @@ p {
   padding-bottom: 40px;
 }
 .header__footer-content {
+  margin-top: auto;
   margin-left: 80px;
 }
 .header__paragraph_address {
-  margin-right: 80px;
-  margin-top: auto;
+  
+  position: absolute;
+  bottom:  40px;
+  right: 80px;
+  
 }
 
 .recipes {
