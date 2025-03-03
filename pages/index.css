@@ -71,7 +71,7 @@ p {
   line-height: 72px;
   letter-spacing: 1px;
 }
-.header__title_span-accent {
+.span_accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -110,10 +110,10 @@ p {
   color: #838383;
   padding-bottom: 40px;
 }
-.header__paragraph {
+.header__footer_content {
   margin-left: 80px;
 }
-.header__paragraph-address {
+.header__paragraph_address {
   margin-right: 80px;
   margin-top: auto;
 }
@@ -154,7 +154,7 @@ p {
   margin-top: 80px;
   margin-bottom: 215px;
 }
-.recipes__videos-items-iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
 }
