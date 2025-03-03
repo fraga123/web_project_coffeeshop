@@ -71,7 +71,7 @@ p {
   line-height: 72px;
   letter-spacing: 1px;
 }
-.span_accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -110,7 +110,7 @@ p {
   color: #838383;
   padding-bottom: 40px;
 }
-.header__footer_content {
+.header__footer-content {
   margin-left: 80px;
 }
 .header__paragraph_address {
