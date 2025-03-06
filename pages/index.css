@@ -188,7 +188,7 @@ p {
 
 .reservation__title {
   padding-top: 100px;
-  margin-top: auto;
+  margin-top: 0;
   margin-bottom: 80px;
   margin-right: auto;
   margin-left: auto;
