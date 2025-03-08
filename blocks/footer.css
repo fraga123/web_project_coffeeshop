@@ -14,10 +14,8 @@
   margin-left: 80px;
   width: 105px;
   height: 39px;
-  position: relative;
 }
 .footer__circle {
-  position: absolute;
   width: 340px;
   height: 340px;
   border-radius: 50%;
