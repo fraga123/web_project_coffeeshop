@@ -8,7 +8,6 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-
 }
 .footer__logo {
   margin-top: 60px;
@@ -26,13 +25,13 @@
   left: -44px;
   z-index: -1;
 }
-.footer__content__social {
+.footer__social {
   margin-top: 60px;
   margin-right: 80px;
   display: flex;
   flex-direction: column;
 }
-.footer__content__social-heading {
+.footer__social-heading {
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Inter";
