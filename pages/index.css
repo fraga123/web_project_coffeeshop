@@ -1,5 +1,5 @@
-@import url("../vendor/normalize.css"); /*bloque de estilos de navegacion*/
-@import url("../blocks/page.css"); /*bloque de estilos de la pagina*/
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css"); /*bloque de estilos de la página*/
 @import url("../blocks/footer.css"); /*bloque de estilos del pie de página*/
 @import url("../blocks/form.css"); /*bloque de estilos del fomulario*/
 @import url("../blocks/header.css"); /*bloque de estilos de la cabecera*/
