@@ -3,6 +3,6 @@
 @import url("../blocks/form.css"); /*bloque de estilos del fomulario*/
 @import url("../blocks/header.css"); /*bloque de estilos de la cabecera*/
 @import url("../blocks/nav.css"); /*bloque de estilos de navegacion*/
-@import url("../blocks/page.css"); /*bloque de estilos de la pagina*/
 @import url("../blocks/recipes.css"); /*bloque de estilos de la sección recetas*/
 @import url("../blocks/reservation.css"); /*bloque de estilos la sección reservaciones*/
+@import url("../blocks/page.css"); /*bloque de estilos de la pagina*/
