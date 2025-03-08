@@ -6,7 +6,6 @@
     <meta name="description" content="Proyecto 4 cafetería" />
     <meta name="author" content="Luis David" />
     <meta name="keywords" content="HTML Y CSS" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,7 +32,7 @@
               <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Contactos</a>
+              <a href="#footer" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -104,9 +103,11 @@
         </section>
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form class="form reservation__form ">
+          <form class="form reservation__form">
             <fieldset class="reservation__form-input-container">
-              <label for="nombre" class="reservation__form-label">Nombre *</label>
+              <label for="nombre" class="reservation__form-label"
+                >Nombre *</label
+              >
               <input
                 placeholder="Nombre"
                 required
@@ -126,7 +127,9 @@
                 class="reservation__form-item"
                 type="number"
               />
-              <label for="date" class="reservation__form-label">Fecha y hora *</label>
+              <label for="date" class="reservation__form-label"
+                >Fecha y hora *</label
+              >
               <input
                 required
                 name="date"
@@ -146,21 +149,60 @@
                 type="email"
               />
             </fieldset>
-            <button class="reservation__form-button" type="submit">Reservar una mesa</button>
+            <button class="reservation__form-button" type="submit">
+              Reservar una mesa
+            </button>
 
-            <label for="checkbox_aceptar" class="reservation__form-label reservation__form-label-aceptar">
+            <label
+              for="checkbox_aceptar"
+              class="reservation__form-label reservation__form-label-aceptar"
+            >
               <input
                 class="reservation__form-checkbox"
                 type="checkbox"
                 id="checkbox_aceptar"
               />
               <span>Acepto los términos de uso</span>
-              </label
-            >
+            </label>
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="logo de pie de pagina"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__content footer__content_social">
+            <h3 class="footer__content_social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item footer__list-item_fb">
+                <a href="https://www.facebook.com/" class="footer__content-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="logo de Facebock"
+                    class="footer__social-icon"
+                  />Faceboock</a
+                >
+              </li>
+              <li class="footer__list-item footer__list-item_ig">
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer__content-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="logo de Instagram"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2025 Luis David Cantu Bonilla</p>
+      </footer>
     </div>
   </body>
 </html>
